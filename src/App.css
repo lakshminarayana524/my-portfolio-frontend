@@ -1,0 +1,63 @@
+.home-page {
+  background-image: url('https://res.cloudinary.com/daju9bdyw/image/upload/v1715151211/ProjectsImages/pic1_uwk5gt.jpg');
+  /* Other styles specific to the home page */
+  background-size: cover;
+    background-position: center;    
+  /* Other styles specific to the home page */
+}
+
+.home-page .navbar li a{
+  color:white;
+}
+
+.Nav{
+  background-color: #ffffff;
+  /* color: white; */
+  padding: 10px;
+  background-image: none;
+}
+
+.App {
+  text-align: center;
+  /* You can keep the styles specific to the App container if needed */
+}
+
+/* Remove the background image from the universal selector */
+/* * {
+  background-image: url('./components/images/pic1.jpg');
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
