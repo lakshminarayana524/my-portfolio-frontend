@@ -19,7 +19,7 @@ const Contact = () => {
   const onSubmit= async(e)=>{
     e.preventDefault();
     if(name !=='' && email!=='' && msg!== ''){
-     await axios.post("http://localhost:3001/contact",{name,email,msg})
+     await axios.post("https://my-prortfolio-server.onrender.com/contact",{name,email,msg})
         .then(res=>{
           if(res.data.message==="Mail Sent Successfully" ){
             settoast(true)

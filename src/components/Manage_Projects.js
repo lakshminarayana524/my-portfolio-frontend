@@ -12,7 +12,7 @@ const Manageproject=()=>{
     
     axios.defaults.withCredentials=true; 
     useEffect(()=>{
-      axios.get("http://localhost:3001/getprojects")
+      axios.get("https://my-prortfolio-server.onrender.com/getprojects")
           .then(req=>{
             console.log(req.data)
             setdetails(req.data.result);

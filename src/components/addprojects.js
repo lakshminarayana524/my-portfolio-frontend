@@ -19,7 +19,7 @@ const Addprojects = () => {
         file.append("name", name);
         file.append("details", details);
         file.append("url", url);
-        axios.post('http://localhost:3001/addprojects', file)
+        axios.post('https://my-prortfolio-server.onrender.com/addprojects', file)
             .then(res => {
                 if (res.data.message === "Project added successfully") {
                     setsend(true);

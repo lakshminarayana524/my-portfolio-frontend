@@ -7,7 +7,7 @@ const Edit = () => {
     const [data, setData] = useState({});
 
     useEffect(() => {
-        axios.get(`http://localhost:3001/pro_edit/${id}`)
+        axios.get(`https://my-prortfolio-server.onrender.com/pro_edit/${id}`)
         .then(res => {
             console.log(res);
             setData(res.data);
