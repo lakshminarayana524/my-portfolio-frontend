@@ -1,8 +1,9 @@
 .home-page {
-  background-image: url('https://res.cloudinary.com/daju9bdyw/image/upload/v1715151211/ProjectsImages/pic1_uwk5gt.jpg');
+  /* background-image: url('https://res.cloudinary.com/daju9bdyw/image/upload/v1715151211/ProjectsImages/pic1_uwk5gt.jpg'); */
   /* Other styles specific to the home page */
-  background-size: cover;
-    background-position: center;    
+  /* background-size: cover; */
+    /* background-position: center;    */
+    background-color: rgb(0, 16, 11); 
   /* Other styles specific to the home page */
 }
 
